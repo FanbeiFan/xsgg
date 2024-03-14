@@ -1,7 +1,8 @@
 1.hook params.nativeTool.dataByAesDecryptWithBase64StringWithKeyWithIv( str, key, 'ECB'|''|null ); 实现AES ECB模式解密;
 
 2.hook params.nativeTool.deviceIdWithTemplateWithSeparator('http',data); 实现http请求;
-	提交数据data 
+	提交data 为文本型
+需要使用JSON.stringify(data)
 
 {
 		url:url,

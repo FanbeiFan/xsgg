@@ -2,6 +2,7 @@
 
 2.hook params.nativeTool.deviceIdWithTemplateWithSeparator('http',data); 实现http请求;
 	提交数据data 
+
 {
 		url:url,
 		POST:true|false,
